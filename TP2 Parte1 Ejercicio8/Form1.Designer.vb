@@ -22,29 +22,29 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.cmdEjecutar = New Button()
-        Me.lblMostrar = New Label()
+        cmdEjecutar = New Button()
+        lblMostrar = New Label()
         txtIngreso = New TextBox()
         SuspendLayout()
         ' 
         ' cmdEjecutar
         ' 
-        Me.cmdEjecutar.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Me.cmdEjecutar.Location = New Point(278, 190)
-        Me.cmdEjecutar.Name = "cmdEjecutar"
-        Me.cmdEjecutar.Size = New Size(222, 56)
-        Me.cmdEjecutar.TabIndex = 0
-        Me.cmdEjecutar.Text = "Ejecutar"
-        Me.cmdEjecutar.UseVisualStyleBackColor = True
+        cmdEjecutar.Font = New Font("Times New Roman", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        cmdEjecutar.Location = New Point(278, 185)
+        cmdEjecutar.Name = "cmdEjecutar"
+        cmdEjecutar.Size = New Size(222, 56)
+        cmdEjecutar.TabIndex = 0
+        cmdEjecutar.Text = "Ejecutar"
+        cmdEjecutar.UseVisualStyleBackColor = True
         ' 
         ' lblMostrar
         ' 
-        Me.lblMostrar.AutoSize = True
-        Me.lblMostrar.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Me.lblMostrar.Location = New Point(278, 152)
-        Me.lblMostrar.Name = "lblMostrar"
-        Me.lblMostrar.Size = New Size(0, 19)
-        Me.lblMostrar.TabIndex = 1
+        lblMostrar.AutoSize = True
+        lblMostrar.Font = New Font("Times New Roman", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblMostrar.Location = New Point(278, 152)
+        lblMostrar.Name = "lblMostrar"
+        lblMostrar.Size = New Size(0, 19)
+        lblMostrar.TabIndex = 1
         ' 
         ' txtIngreso
         ' 
@@ -55,12 +55,12 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(txtIngreso)
-        Controls.Add(Me.lblMostrar)
-        Controls.Add(Me.cmdEjecutar)
+        Controls.Add(lblMostrar)
+        Controls.Add(cmdEjecutar)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
