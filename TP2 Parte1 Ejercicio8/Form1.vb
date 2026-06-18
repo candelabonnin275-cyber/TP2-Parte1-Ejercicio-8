@@ -9,7 +9,8 @@
         Factorial = 1
         Do While Contador < Numero
             Contador = Contador + 1
-            Factorial = Factorial * Contador
+            Factorial = (Factorial * Contador)
         Loop
+        lblMostrar.Text = Factorial
     End Sub
 End Class
